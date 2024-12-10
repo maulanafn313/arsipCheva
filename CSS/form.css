@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: seashell;
+}
+
+div {
+    margin: 10px;
+}
+
+label {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+input {
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    margin-top: 3px;
+}
+
+.akun {
+    padding: 10px;
+    background-color: lightgray;
+    width: 500px;
+    margin: auto;
+    border-radius: 10px;
+    border: 2px solid lightgray;
+}
+
+button {
+    padding: 10px;
+    width: 100px;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do List</title>
+    <link rel="stylesheet" href="todolist.css">
+</head>
+<body>
+    <main>
+        <h1>To-do List</h1>
+        
+        <article class="tugas">
+            <section class="namaTugas">
+                <h4>Nama Tugas</h4>
+                <input type="text" name="nama" id="nama" placeholder="masukkan nama tugas">
+            </section>
+
+            <section class="deskripsiTugas">
+                <h4>Deskripsi Tugas</h4>
+                <textarea name="deskripsi" id="deskripsi" placeholder="masukkan deskripsi tugas" cols="30" rows="5"></textarea>
+            </section>
+
+            <section class="deadlineTugas">
+                <h4>Deadline Tugas</h4>
+                <input type="date" name="deadline" id="deadline">
+            </section>
+            
+            <section class="button-submit">
+                <button id="tambahTugas">Tambah Tugas</button>
+            </section>
+        </article>
+
+        <h1>Daftar Tugas</h1>
+        <article class="DaftarTugas" id="daftarTugas">
+            
+        </article>
+    </main>
+    <script src="todolist.js"></script>
+</body>
+</html>
